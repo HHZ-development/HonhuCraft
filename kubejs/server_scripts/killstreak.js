@@ -1,5 +1,3 @@
-// 脚本文件路径: kubejs/server_scripts/killstreak.js
-
 // 初始化数据
 let killStreaks = {};
 let lastKillTimes = {};

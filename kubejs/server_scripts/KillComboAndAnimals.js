@@ -96,15 +96,5 @@ EntityEvents.hurt(event => {
                 }
             }
         }
-    } else {
-        // 获取伤害来源类型
-        let sourceType = source.getType ? source.getType() : "unknown";
-        let currentTime = Date.now();
-
-        // 仅在特定间隔内记录日志
-        if (!loggedNonPlayerSources[sourceType] || currentTime - loggedNonPlayerSources[sourceType] > nonPlayerLogThrottle) {
-            loggedNonPlayerSources[sourceType] = currentTime;
-            console.warn(`伤害来源不是玩家，伤害来源类型: ${sourceType}, 无法显示伤害消息`);
-        }
-    }
+    } else {}
 });
