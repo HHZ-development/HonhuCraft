@@ -1,0 +1,108 @@
+{
+	id: "616824BBD0B2F6C5"
+	loot_crate: {
+		color: 273921
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "子弹战利品箱"
+		string_id: "ammo"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:308"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50bmg"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:338"
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:rpg_rocket"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+		}
+	]
+	title: "子弹战利品箱"
+}

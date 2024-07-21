@@ -1,0 +1,11 @@
+craftingTable.addShapeless("1to5",<item:currency:five_dollar_bill>,[<item:currency:dollar_bill>,<item:currency:dollar_bill>,<item:currency:dollar_bill>,<item:currency:dollar_bill>,<item:currency:dollar_bill>]);
+craftingTable.addShapeless("5to10",<item:currency:ten_dollar_bill>,[<item:currency:five_dollar_bill>,<item:currency:five_dollar_bill>,]);
+craftingTable.addShapeless("10to20",<item:currency:twenty_dollar_bill>,[<item:currency:ten_dollar_bill>,<item:currency:ten_dollar_bill>]);
+craftingTable.addShapeless("20_10to50",<item:currency:fifty_dollar_bill>,[<item:currency:twenty_dollar_bill>,<item:currency:twenty_dollar_bill>,<item:currency:ten_dollar_bill>]);
+craftingTable.addShapeless("50to100",<item:currency:hundred_dollar_bill>,[<item:currency:fifty_dollar_bill>,<item:currency:fifty_dollar_bill>]);
+craftingTable.addShapeless("100to50",<item:currency:fifty_dollar_bill>*2,[<item:currency:hundred_dollar_bill>]);
+craftingTable.addShapeless("50to10",<item:currency:ten_dollar_bill>*5,[<item:currency:fifty_dollar_bill>]);
+craftingTable.addShapeless("20to10",<item:currency:ten_dollar_bill>*2,[<item:currency:twenty_dollar_bill>]);
+craftingTable.addShapeless("10to5",<item:currency:five_dollar_bill>*2,[<item:currency:ten_dollar_bill>]);
+craftingTable.addShapeless("5to1",<item:currency:dollar_bill>*5,[<item:currency:five_dollar_bill>]);
+craftingTable.addShapeless("20to100",<item:currency:hundred_dollar_bill>,[<item:currency:twenty_dollar_bill>,<item:currency:twenty_dollar_bill>,<item:currency:twenty_dollar_bill>,<item:currency:twenty_dollar_bill>,<item:currency:twenty_dollar_bill>]);

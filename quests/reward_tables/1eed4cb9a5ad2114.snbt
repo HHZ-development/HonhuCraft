@@ -1,0 +1,108 @@
+{
+	id: "1EED4CB9A5AD2114"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "枪口组件战利品箱"
+		string_id: "muzzle"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_cyclone_d2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_trex"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:bayonet_6h3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_compensator_trident"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silence_phantom_s1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silence_mirage"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:bayonet_m9"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:deagle_golden_long_barrel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_cthulhu"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_pioneer"
+				}
+			}
+		}
+	]
+	title: "枪口组件战利品箱"
+}

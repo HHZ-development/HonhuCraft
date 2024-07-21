@@ -1,0 +1,16 @@
+[
+  {
+    "name": "night",
+    "conditions": {
+      "mintime": "13000",
+	  "maxdaycount": "23000"
+    }
+  },
+  {
+	"name":	"day",
+	"conditions":{
+	  "mintime": "0",
+	  "maxdaycount": "13000"
+	}
+  }
+]

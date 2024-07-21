@@ -1,0 +1,22 @@
+[
+  {
+    "mob": ["minecraft:zombie"],
+    "seesky": true,
+    "when": "finalize",
+    "result": "allow",
+    "damagemultiply": 2,
+    "speedmultiply": 1.5,
+    "armorhelmet": ["minecraft:iron_helmet"],
+	  "phase": "night"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "when": "finalize",
+    "result": "allow",
+    "damagemultiply": 2,
+    "speedmultiply": 1.5,
+    "armorhelmet": ["minecraft:iron_helmet"],
+    "helditem": ["minecraft:bow"],
+    "phase": "night"
+  }
+]

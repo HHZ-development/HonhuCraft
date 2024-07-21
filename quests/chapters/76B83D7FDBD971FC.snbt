@@ -1,0 +1,860 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "76B83D7FDBD971FC"
+	group: ""
+	icon: "biomemakeover:lightning_bottle"
+	id: "76B83D7FDBD971FC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "3E06CFABAA4838AE"
+			rewards: [{
+				id: "7AA8F9728D094680"
+				item: "currency:dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "2B212A08D2F44A9E"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E06CFABAA4838AE"]
+			icon: "minecraft:netherrack"
+			id: "12ADC6164565772B"
+			rewards: [{
+				id: "79620B5EDF6299D0"
+				item: "currency:hundred_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0303F018664926C3"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12ADC6164565772B"]
+			icon: "minecraft:end_stone"
+			id: "694A95658E72BC70"
+			rewards: [{
+				count: 5
+				id: "0889A4684134CC58"
+				item: "currency:hundred_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "53A5CB3D069ED312"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "5C03B31D1697FD31"
+			rewards: [{
+				id: "4EFB96D25080389C"
+				item: "currency:dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "174D6FBA4C533F4B"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C03B31D1697FD31"]
+			id: "2AA935FD7DD19000"
+			rewards: [{
+				id: "2C1C8A34D1BE72AC"
+				item: "currency:ten_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "003937AF0BEB0E9B"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AA935FD7DD19000"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "230F3E38530A5844"
+			rewards: [{
+				id: "2EDE5142881E16F5"
+				item: "currency:twenty_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6C17818A2B66A6CF"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230F3E38530A5844"]
+			id: "196214B24F8D7EB9"
+			rewards: [{
+				id: "18CB18FCF76940F3"
+				item: "currency:fifty_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6514CE4FC9897310"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["196214B24F8D7EB9"]
+			id: "17FE58A658D5387B"
+			rewards: [{
+				id: "7D490FCE8EE09D79"
+				item: "currency:hundred_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "795DC44028FDCC27"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["17FE58A658D5387B"]
+			id: "322EDE450D4B87A3"
+			rewards: [{
+				count: 3
+				id: "01C68D3B7B744F06"
+				item: "currency:hundred_dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "058B31C9760BC262"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100000
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["322EDE450D4B87A3"]
+			id: "10DACAF5F666856D"
+			rewards: [{
+				id: "51C46A82CCC10FBE"
+				item: {
+					Count: 1
+					id: "kubejs:killer"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_damage"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									8354
+									6178
+									9571
+									5646
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									6128
+									3187
+									9836
+									7239
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.max_health"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									6825
+									7393
+									7828
+									6999
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.movement_speed"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									8144
+									3223
+									3487
+									7658
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.knockback_resistance"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									7423
+									7394
+									4451
+									5278
+								]
+							}
+							{
+								Amount: -0.5d
+								AttributeName: "generic.follow_range"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									9959
+									3512
+									2663
+									5528
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.luck"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									7789
+									9718
+									9554
+									5146
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.armor"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									4628
+									3879
+									5163
+									3584
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.armor_toughness"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									5397
+									1978
+									7429
+									5134
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:infinity"
+							lvl: 32767s
+						}]
+						HideFlags: 63b
+						Unbreakable: 1b
+						display: {
+							Lore: [
+								"[{\"text\":\"\",\"italic\":false},{\"text\":\"你是新的Apex击杀王\",\"color\":\"red\"}]"
+								"[{\"text\":\"\",\"italic\":false},{\"text\":\"(依然是副手物品)\",\"color\":\"blue\"}]"
+							]
+							Name: "[{\"text\":\"\",\"italic\":false},{\"text\":\"击杀王\",\"color\":\"red\"}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "603BD88FBCCEA78E"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000000
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "41CD3B575BCAF5ED"
+			rewards: [{
+				id: "5ADF81757D4951AC"
+				item: "currency:dollar_bill"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "78A148E33D6676BD"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["41CD3B575BCAF5ED"]
+			id: "01100075ED2A82E3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "21BCB54322D8256C"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01100075ED2A82E3"]
+			id: "2B619AFFCEEDDA6A"
+			rewards: [{
+				id: "49D38FB100F6B855"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 0.1d
+								AttributeName: "generic.max_health"
+								Name: "noName"
+								Operation: 1
+								Slot: "feet"
+								UUID: [I;
+									6825
+									7393
+									7828
+									6999
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.movement_speed"
+								Name: "noName"
+								Operation: 1
+								Slot: "feet"
+								UUID: [I;
+									8144
+									3223
+									3487
+									7658
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.luck"
+								Name: "noName"
+								Operation: 1
+								Slot: "feet"
+								UUID: [I;
+									7789
+									9718
+									9554
+									5146
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "generic.armor"
+								Name: "noName"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4628
+									3879
+									5163
+									3584
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "generic.armor_toughness"
+								Name: "noName"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									5397
+									1978
+									7429
+									5134
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1b
+						display: {
+							Lore: ["[{\"text\":\"\",\"italic\":false},{\"text\":\"嘿嘿，小伙伴们，来看看这双超棒的足力健老人鞋吧！这双鞋子不仅超级舒适，而且还特别贴心哦~ 它们有着软软的鞋垫，能够给你的脚丫提供温暖的呵护，让每一步都像在云朵上行走一样轻松！设计还很简约大方，穿上它，走路就像跳舞一样愉快喵！让足力健老人鞋陪伴你走过每一天的快乐时光吧！\",\"color\":\"pink\"}]"]
+							Name: "[{\"text\":\"\",\"italic\":false},{\"text\":\"足力健老人鞋\",\"color\":\"gold\"}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2DA339E1A4C1B554"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B619AFFCEEDDA6A"]
+			id: "31540F7CF532625B"
+			rewards: [{
+				id: "30192151503D54DF"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 8.0d
+								AttributeName: "generic.armor"
+								Name: "noName"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									7177
+									4565
+									1541
+									9419
+								]
+							}
+							{
+								Amount: 3.0d
+								AttributeName: "generic.armor_toughness"
+								Name: "noName"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									5332
+									1916
+									6144
+									9767
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.knockback_resistance"
+								Name: "noName"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									4714
+									6132
+									3935
+									8371
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 5s
+						}]
+						RepairCost: 7
+						Unbreakable: 1b
+						display: {
+							Lore: ["[{\"text\":\"\",\"italic\":false},{\"text\":\"不要用喷气背包，看看我呀o(╥﹏╥)o\",\"color\":\"gold\"}]"]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "492CE5A7F51FEFFD"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 10000000
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			id: "24F1B3AF1EABCF1A"
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "6CFDB906356C1BF8"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 1800000
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			id: "7CA67B6E5CE09D53"
+			rewards: [{
+				id: "5A40F8A113F08C79"
+				item: {
+					Count: 1
+					id: "minecraft:gold_ingot"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 0.1d
+								AttributeName: "generic.max_health"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									7427
+									9556
+									5834
+									4958
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.movement_speed"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									3848
+									1225
+									6381
+									1184
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.knockback_resistance"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1254
+									3259
+									3343
+									7645
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.luck"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									6528
+									7395
+									4722
+									6411
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.armor"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									9991
+									8877
+									1547
+									7655
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.attack_damage"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									3277
+									3867
+									9452
+									8782
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.attack_speed"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1145
+									3946
+									6341
+									2133
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.armor_toughness"
+								Name: "noName"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									7789
+									9188
+									8499
+									4966
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:infinity"
+							lvl: 32767s
+						}]
+						HideFlags: 63b
+						Unbreakable: 1b
+						display: {
+							Lore: [
+								"[{\"text\":\"\",\"italic\":false},{\"text\":\"“神金”是一种闪闪发光、非常稀有的宝物哦，只有最勇敢的冒险家才能找到它喵！传说中，拥有神金的人会获得无穷的力量和好运呢，真是超级梦幻的宝物喵！\",\"color\":\"gold\"}]"
+								"[{\"text\":\"\",\"italic\":false},{\"text\":\"据说放在副手会有好事发生哦~~\",\"color\":\"yellow\"}]"
+							]
+							Name: "[{\"text\":\"\",\"italic\":false},{\"text\":\"神金\",\"color\":\"gold\",\"bold\":\"true\"}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:bell"
+				id: "2F44AB32DCE24938"
+				stat: "minecraft:bell_ring"
+				type: "stat"
+				value: 10000
+			}]
+			title: "敲~敲~敲~"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "1C708D0D706B1AC4"
+			rewards: [{
+				id: "56CED0B64BD5CFB8"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "04FE5C64E1727B3A"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C708D0D706B1AC4"]
+			description: ["&4"]
+			id: "3232B6BAF879C92D"
+			rewards: [{
+				id: "46D12CEF1A94C7DA"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "&4蔡"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "2BACC829F67A66AD"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 10
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3232B6BAF879C92D"]
+			id: "171B342488C9074F"
+			rewards: [{
+				id: "4481B3D9ECED1738"
+				item: "biomemakeover:enchanted_totem"
+				type: "item"
+			}]
+			subtitle: "&6布什·戈门"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "20871E1B3AB01B6C"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 100
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["171B342488C9074F"]
+			id: "21A7C5C6A261A9DB"
+			rewards: [{
+				count: 10
+				id: "187BF9D0F9ADB8C5"
+				item: "biomemakeover:enchanted_totem"
+				type: "item"
+			}]
+			subtitle: "&2?"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "5207AFC673A4B68B"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 500
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21A7C5C6A261A9DB"]
+			id: "3584196B1883BD28"
+			rewards: [{
+				count: 100
+				id: "220EFCFD62655A4D"
+				item: "biomemakeover:enchanted_totem"
+				type: "item"
+			}]
+			subtitle: "&2??????"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "2D0B272B9979098A"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 5000
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+	]
+	title: "成就"
+}
