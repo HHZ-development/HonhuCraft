@@ -39,7 +39,7 @@ ServerEvents.tick(event => {
         // 白天，为指定怪物添加效果
         applyEffects(entities, effects.day);
         if (lastTimePeriod !== 'day') {
-            let dayMessage = '§l<CatGPT> §2现在是白天，怪物们被削弱了喵!';
+            let dayMessage = '<CatGPT> §l§2现在是白天，怪物们被削弱了喵!';
             event.server.players.forEach(player => {
                 player.tell(dayMessage);
             });
@@ -49,7 +49,7 @@ ServerEvents.tick(event => {
         // 夜晚，清除指定怪物的效果
         clearEffects(entities);
         if (lastTimePeriod !== 'night') {
-            let nightMessage = '§l<CatGPT> §4现在是晚上，怪物将会大幅增强喵!';
+            let nightMessage = '<CatGPT> §l§4现在是晚上，怪物将会大幅增强喵!';
             event.server.players.forEach(player => {
                 player.tell(nightMessage);
             });
