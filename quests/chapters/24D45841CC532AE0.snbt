@@ -88,7 +88,9 @@
 		{
 			dependencies: ["42C5AA0D2457B645"]
 			description: [
-				"在&d染梦世界&r的天空中，会生成浮空的岛屿：&d染梦教堂&r。而你也有小概率找到&0侵染&r&d教堂&r，在其中找到&e寻梦者笔记&r是你的下一步目标"
+				"在&d染梦世界&r的天空中，会生成浮空的岛屿：&d染梦教堂&r。而你也有小概率找到&0侵染&r&d教堂&r，在其中找到&e寻梦者笔记:侵染教堂&r是你的下一步目标"
+				""
+				"Tips:你也可以去地下城击杀&3坚守者&r并获得&3坚守者之心&r后按指示睡一觉来获取&e寻梦者笔记:阴影中的潜藏者&r，效果是一样的"
 				"{image:kubejs:textures/quest/qinranjiaotang.png width:21 height:9 align:center fit:true}"
 			]
 			id: "2E69F4D14141AD03"
@@ -120,7 +122,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2E69F4D14141AD03"]
 			description: [
 				"在前往&0灯影之下&r维度前，我推荐你先搞一只&b夜明蝶&r，或者其他可以获得&a夜视&r的东西。&b夜明蝶&r可以从&d融梦水晶箱&r中开出，如果你实在找不到，就来"
 				"{ \"text\": \"这里\", \"color\":\"blue\",\"bold\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4911AD2D1A32561C\" } }"
@@ -135,7 +136,7 @@
 				item: "pasterdream:light_butterfly_curio"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -160,7 +161,7 @@
 				count: 10L
 				id: "55C1A3D6869E49DE"
 				item: {
-					Count: 10
+					Count: 1
 					id: "pasterdream:garland"
 					tag: {
 						Damage: 0
@@ -202,7 +203,7 @@
 				}
 				type: "item"
 			}]
-			title: "理智恢复"
+			title: "恢复理智"
 			x: -1.0d
 			y: 0.5d
 		}
@@ -216,6 +217,7 @@
 				"{image:kubejs:textures/quest/muyingzhilong.png width:21 height:9 align:center fit:true}"
 			]
 			id: "2356557E9EF12902"
+			subtitle: "事情开始变得不对劲起来了"
 			tasks: [
 				{
 					icon: {
@@ -255,6 +257,78 @@
 			}]
 			x: 5.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2356557E9EF12902"
+				"0D7430B36DDBA80B"
+				"37AEC90397410C36"
+			]
+			description: [
+				"你来到了&0灯影之下&r，发现身处于&0乌云笼&r之中，如果你害怕了，可以右击头顶的&0暮影之笼&r返回&2主世界"
+				"&r{image:kubejs:textures/quest/wuyunlong.png width:21 height:9 align:center fit:true}"
+			]
+			icon: "pasterdream:thick_shadow_block"
+			id: "6EAF1A81DEDE0B55"
+			tasks: [{
+				dimension: "pasterdream:lamp_shadow_world"
+				id: "36FDE53A77464863"
+				title: "访问维度：灯影之下"
+				type: "dimension"
+			}]
+			title: "访问维度：灯影之下"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"在进入&0灯影之下&r前，我推荐你先制作一个&7苍白骨针&r，它可以随时帮助你从这个&0阴森恐怖&r的维度逃离。要制作它，你需要先去雪山附近寻找&7苍白雪莲&r，我建议你不要直接把它分解，而是进行&a种植&r。使用&7园艺钳&r即可把&7花冠&r剪下，而剩下的&2茎部&r会随着时间的推移长出新的&7花冠&r"
+				"什么？你说你找不到&7雪山&r？那就欢迎光临我的&e商店&r~~"
+				"{ \"text\": \"商店\", \"color\":\"blue\",\"bold\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50E2FF838AF7248B\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "pasterdream:pale_boneneedle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D7430B36DDBA80B"
+			optional: true
+			shape: "rsquare"
+			subtitle: "逃离黑暗"
+			tasks: [
+				{
+					id: "2B3AB910DE0CAFF6"
+					item: "pasterdream:crop_1a"
+					type: "item"
+				}
+				{
+					id: "508991864010BCF6"
+					item: {
+						Count: 1
+						id: "pasterdream:pliers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24C757C57AA6061B"
+					item: {
+						Count: 1
+						id: "pasterdream:pale_boneneedle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "苍白骨针"
+			x: 9.0d
+			y: -1.5d
 		}
 	]
 	title: "帕斯特之梦"

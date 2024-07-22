@@ -97,6 +97,21 @@
 			x: 3.0d
 			y: -2.0d
 		}
+		{
+			can_repeat: true
+			icon: "pasterdream:crop_1a"
+			id: "50E2FF838AF7248B"
+			optional: true
+			rewards: [{
+				id: "54E9030BADA0C052"
+				item: "pasterdream:crop_1a"
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "苍白雪莲"
+			x: 5.0d
+			y: -2.0d
+		}
 	]
 	title: "商店"
 }
