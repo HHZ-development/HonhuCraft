@@ -3,69 +3,49 @@
 	default_quest_shape: ""
 	filename: "76B83D7FDBD971FC"
 	group: ""
-	icon: "biomemakeover:lightning_bottle"
+	icon: "cataclysm:flame_eye"
 	id: "76B83D7FDBD971FC"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5DED23550D74CEC0"]
 			icon: "minecraft:grass_block"
 			id: "3E06CFABAA4838AE"
-			rewards: [{
-				id: "7AA8F9728D094680"
-				item: "currency:dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "2B212A08D2F44A9E"
 				type: "dimension"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3E06CFABAA4838AE"]
 			icon: "minecraft:netherrack"
 			id: "12ADC6164565772B"
-			rewards: [{
-				id: "79620B5EDF6299D0"
-				item: "currency:hundred_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "0303F018664926C3"
 				type: "dimension"
 			}]
 			x: -4.5d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["12ADC6164565772B"]
+			dependencies: ["6720108157773CA3"]
 			icon: "minecraft:end_stone"
 			id: "694A95658E72BC70"
-			rewards: [{
-				count: 5
-				id: "0889A4684134CC58"
-				item: "currency:hundred_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "53A5CB3D069ED312"
 				type: "dimension"
 			}]
 			x: -4.5d
-			y: 1.5d
+			y: 5.5d
 		}
 		{
 			id: "5C03B31D1697FD31"
-			rewards: [{
-				id: "4EFB96D25080389C"
-				item: "currency:dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -85,11 +65,6 @@
 		{
 			dependencies: ["5C03B31D1697FD31"]
 			id: "2AA935FD7DD19000"
-			rewards: [{
-				id: "2C1C8A34D1BE72AC"
-				item: "currency:ten_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -116,11 +91,6 @@
 				}
 			}
 			id: "230F3E38530A5844"
-			rewards: [{
-				id: "2EDE5142881E16F5"
-				item: "currency:twenty_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -140,11 +110,6 @@
 		{
 			dependencies: ["230F3E38530A5844"]
 			id: "196214B24F8D7EB9"
-			rewards: [{
-				id: "18CB18FCF76940F3"
-				item: "currency:fifty_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -164,11 +129,6 @@
 		{
 			dependencies: ["196214B24F8D7EB9"]
 			id: "17FE58A658D5387B"
-			rewards: [{
-				id: "7D490FCE8EE09D79"
-				item: "currency:hundred_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -188,12 +148,6 @@
 		{
 			dependencies: ["17FE58A658D5387B"]
 			id: "322EDE450D4B87A3"
-			rewards: [{
-				count: 3
-				id: "01C68D3B7B744F06"
-				item: "currency:hundred_dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -381,11 +335,6 @@
 				}
 			}
 			id: "41CD3B575BCAF5ED"
-			rewards: [{
-				id: "5ADF81757D4951AC"
-				item: "currency:dollar_bill"
-				type: "item"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -425,10 +374,10 @@
 			dependencies: ["01100075ED2A82E3"]
 			id: "2B619AFFCEEDDA6A"
 			rewards: [{
-				id: "49D38FB100F6B855"
+				id: "28F1264ABC20BCEE"
 				item: {
 					Count: 1
-					id: "minecraft:diamond_boots"
+					id: "pasterdream:titanium_armor_boots"
 					tag: {
 						AttributeModifiers: [
 							{
@@ -498,6 +447,7 @@
 							}
 						]
 						Damage: 0
+						HideFlags: 63b
 						Unbreakable: 1b
 						display: {
 							Lore: ["[{\"text\":\"\",\"italic\":false},{\"text\":\"嘿嘿，小伙伴们，来看看这双超棒的足力健老人鞋吧！这双鞋子不仅超级舒适，而且还特别贴心哦~ 它们有着软软的鞋垫，能够给你的脚丫提供温暖的呵护，让每一步都像在云朵上行走一样轻松！设计还很简约大方，穿上它，走路就像跳舞一样愉快喵！让足力健老人鞋陪伴你走过每一天的快乐时光吧！\",\"color\":\"pink\"}]"]
@@ -606,6 +556,15 @@
 		{
 			icon: "minecraft:skeleton_skull"
 			id: "24F1B3AF1EABCF1A"
+			rewards: [{
+				id: "3ADB2D67F4EE985F"
+				item: {
+					Count: 1
+					id: "pasterdream:qym_doll_0"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:skeleton_skull"
 				id: "6CFDB906356C1BF8"
@@ -854,6 +813,52 @@
 			}]
 			x: 1.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["12ADC6164565772B"]
+			icon: "pasterdream:dyedream_grass"
+			id: "6720108157773CA3"
+			tasks: [{
+				dimension: "pasterdream:dyedream_world"
+				id: "2CC9A20D5AC608DA"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6720108157773CA3"]
+			icon: "pasterdream:shadow_block"
+			id: "44D1F2368253BBE5"
+			tasks: [{
+				dimension: "pasterdream:lamp_shadow_world"
+				id: "7A5BE094CFB4F3E0"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6720108157773CA3"]
+			icon: "pasterdream:cloud"
+			id: "6E5103195FCA15AC"
+			tasks: [{
+				dimension: "pasterdream:wind_journey_world"
+				id: "750D2DAB82D014D1"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "5DED23550D74CEC0"
+			tasks: [{
+				id: "15FBFBAE92F4ADC0"
+				title: "维度流程"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
 		}
 	]
 	title: "成就"

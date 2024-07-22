@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "24D45841CC532AE0"
+	group: ""
+	id: "24D45841CC532AE0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在主世界的天空中，会出现&d染梦空岛&r。当你穿过传送门时，发现传送并没有生效。根据提示，你决定先睡一觉，再重新尝试"
+				"{image:kubejs:textures/quest/ranmengkongdao.png width:21 height:9 align:center fit:true}"
+			]
+			id: "1967600F7C9C5DEC"
+			subtitle: "染梦空岛"
+			tasks: [{
+				icon: "pasterdream:dyedream_crack"
+				id: "78517E325D9D13F4"
+				observe_type: 0
+				timer: 0L
+				title: "观察染梦裂隙"
+				to_observe: "pasterdream:dyedream_crack"
+				type: "observation"
+			}]
+			title: "染梦裂隙"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1967600F7C9C5DEC"]
+			id: "42C5AA0D2457B645"
+			tasks: [{
+				dimension: "pasterdream:dyedream_world"
+				icon: "pasterdream:dyedream_grass"
+				id: "1F75F3999A110677"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42C5AA0D2457B645"]
+			description: ["在&d染梦世界&r中收集&d染梦茶花&r（当然主世界的&d染梦空岛&r也有）即可制作&b梦境果汁&r，喝下后睡觉即可前往&d染梦世界"]
+			icon: "pasterdream:dreamjuice"
+			id: "278531045F7F2A7E"
+			optional: true
+			shape: "rsquare"
+			subtitle: "更方便的传送"
+			tasks: [
+				{
+					id: "624294366B592171"
+					item: "pasterdream:crop_0a"
+					type: "item"
+				}
+				{
+					id: "0BC3EF1024F3EF5A"
+					item: "pasterdream:dreamjuice"
+					type: "item"
+				}
+			]
+			title: "梦境果汁"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42C5AA0D2457B645"]
+			description: ["在&d染梦世界&r的各种建筑中，你会发现&d融梦水晶箱&r，右击后，箱子的晃动次数决定&b战利品&r稀有程度"]
+			id: "06CCEA9B676B75FB"
+			subtitle: "战利品"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "pasterdream:meltdream_chest"
+					tag: { }
+				}
+				id: "358A251D44743AE9"
+				observe_type: 0
+				timer: 0L
+				title: "观察融梦水晶箱"
+				to_observe: "pasterdream:meltdream_chest"
+				type: "observation"
+			}]
+			title: "融梦水晶箱"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42C5AA0D2457B645"]
+			description: [
+				"在&d染梦世界&r的天空中，会生成浮空的岛屿：&d染梦教堂&r。而你也有小概率找到&0侵染&r&d教堂&r，在其中找到&e寻梦者笔记&r是你的下一步目标"
+				"{image:kubejs:textures/quest/qinranjiaotang.png width:21 height:9 align:center fit:true}"
+			]
+			id: "2E69F4D14141AD03"
+			subtitle: "侵染教堂"
+			tasks: [{
+				id: "68D2299831B65ABB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "pasterdream:dreamnotes_9"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 0
+						}
+						switch: 1b
+						x: -1428.0d
+						z: -1848.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E69F4D14141AD03"]
+			description: [
+				"在前往&0灯影之下&r维度前，我推荐你先搞一只&b夜明蝶&r，或者其他可以获得&a夜视&r的东西。&b夜明蝶&r可以从&d融梦水晶箱&r中开出，如果你实在找不到，就来"
+				"{ \"text\": \"这里\", \"color\":\"blue\",\"bold\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4911AD2D1A32561C\" } }"
+				"看看吧~~~"
+			]
+			id: "37AEC90397410C36"
+			optional: true
+			shape: "rsquare"
+			subtitle: "夜视"
+			tasks: [{
+				id: "54C6FE3BE04A08FB"
+				item: "pasterdream:light_butterfly_curio"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "30725268235B11EA"
+			optional: true
+			rewards: [{
+				id: "5DDC543070B9EB99"
+				item: {
+					Count: 1
+					id: "pasterdream:garland"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "55C1A3D6869E49DE"
+				item: {
+					Count: 10
+					id: "pasterdream:garland"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "恢复理智"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "02B4991F784BB1FA"
+			optional: true
+			rewards: [{
+				id: "1507C8DA3084A962"
+				item: {
+					Count: 1
+					id: "pasterdream:nature_belt"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "056A8E7331207F50"
+				item: {
+					Count: 10
+					id: "pasterdream:nature_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "理智恢复"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"22123205D46A16D1"
+				"2E69F4D14141AD03"
+			]
+			description: [
+				"按照&e寻梦者笔记&r的提示，来到主世界对应的坐标（基岩层），在结构中心有一个&0暮影之笼&r，将&d融梦水晶碎片&r插入&0暮影之笼&r后坚守一段时间，待聊天框出现提示后即可通过&9在&0暮影长床&r上睡觉&r进入&0灯影之下"
+				"{image:kubejs:textures/quest/muyingzhilong.png width:21 height:9 align:center fit:true}"
+			]
+			id: "2356557E9EF12902"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "pasterdream:twilight_lantern"
+						tag: { }
+					}
+					id: "40AAB702FAC51B0B"
+					observe_type: 0
+					timer: 0L
+					title: "观察暮影之笼"
+					to_observe: "pasterdream:twilight_lantern"
+					type: "observation"
+				}
+				{
+					icon: "pasterdream:true_shadow_bed"
+					id: "78F6CA78524CB9B4"
+					observe_type: 0
+					timer: 0L
+					title: "观察暮影长床"
+					to_observe: "pasterdream:true_shadow_bed"
+					type: "observation"
+				}
+			]
+			title: "观察暮影之笼"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06CCEA9B676B75FB"]
+			description: ["有概率生成于&d染梦世界&r的&d染梦教堂&r中，也可以在&d融梦水晶箱&r中有几率获得。开启&d融梦水晶箱&r时，有概率在箱子正上方生成一个&d融梦水晶簇&r，shift右键将其破坏或用&6枪&r之类的方式将其杀死可以掉落&d融梦水晶碎片&r"]
+			id: "22123205D46A16D1"
+			tasks: [{
+				id: "67F4441B6B885231"
+				item: "pasterdream:meltdream_crystal_0"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+	]
+	title: "帕斯特之梦"
+}

@@ -11,18 +11,14 @@
 			can_repeat: true
 			icon: "minecraft:melon_slice"
 			id: "08E6FEB595B18E43"
+			optional: true
 			rewards: [{
 				id: "20349DB99FC1E166"
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "美味又止渴~"
-			tasks: [{
-				consume_items: true
-				id: "048806CC885C3055"
-				item: "currency:dollar_bill"
-				type: "item"
-			}]
 			title: "西瓜片~~"
 			x: -3.0d
 			y: -2.0d
@@ -37,6 +33,7 @@
 				}
 			}
 			id: "3CE48674BA6D880F"
+			optional: true
 			rewards: [{
 				id: "6177985C8D6A1C06"
 				item: {
@@ -48,13 +45,8 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "是随机的哦"
-			tasks: [{
-				consume_items: true
-				id: "0CF39E533E906C7A"
-				item: "currency:ten_dollar_bill"
-				type: "item"
-			}]
 			title: "啊嘞？没子弹了？"
 			x: -1.0d
 			y: -2.0d
@@ -72,6 +64,7 @@
 				}
 			}
 			id: "20C247F4DF6112C9"
+			optional: true
 			rewards: [{
 				id: "4EDC2251C691E972"
 				item: {
@@ -83,15 +76,25 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "随机枪械~"
-			tasks: [{
-				count: 3L
-				id: "2700C93ECBB36969"
-				item: { Count: 3, id: "currency:hundred_dollar_bill" }
-				type: "item"
-			}]
 			title: "什么？现有的枪已经满足不了你了？"
 			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "pasterdream:light_butterfly_curio"
+			id: "4911AD2D1A32561C"
+			optional: true
+			rewards: [{
+				id: "57486C8CD9AA2E72"
+				item: "pasterdream:light_butterfly_curio"
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "夜视"
+			x: 3.0d
 			y: -2.0d
 		}
 	]
