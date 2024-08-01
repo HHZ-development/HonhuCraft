@@ -164,10 +164,11 @@
       "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:25,GunFireMode:\"BURST\",GunId:\"helldiver2:sg225ie_breaker\",HasBulletInBarrel:1b}"
     ],
     "grade4": [
-      "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:2,GunFireMode:\"SEMI\",GunId:\"emxarms:emx_enforcer\",HasBulletInBarrel:1b}",
-      "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:12,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_draftsman\",HasBulletInBarrel:1b}"
+      "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:2,GunFireMode:\"SEMI\",GunId:\"emxarms:emx_enforcer\",HasBulletInBarrel:1b}"
     ],
-    "grade5": []
+    "grade5": [
+	  "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:12,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_draftsman\",HasBulletInBarrel:1b}"
+	]
   },
   {
     "name": "机枪武器箱",
