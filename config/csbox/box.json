@@ -195,11 +195,10 @@
       "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:45,GunFireMode:\"AUTO\",GunId:\"gz:classic_rpk74\",HasBulletInBarrel:1b}"
     ],
     "grade3": [
-      "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:80,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_mg57\",HasBulletInBarrel:1b}",
       "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:30,GunFireMode:\"SEMI\",GunId:\"emxarms:emx_mg90\",HasBulletInBarrel:1b}"
     ],
     "grade4": [
-      "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:200,GunFireMode:\"AUTO\",GunId:\"xiaomantou:xm556\",HasBulletInBarrel:1b}"
+      "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:80,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_mg57\",HasBulletInBarrel:1b}"
     ],
     "grade5": [
       "tacz:modern_kinetic_gun.withTags{GunCurrentAmmoCount:1,GunFireMode:\"SEMI\",GunId:\"tacz:rpg7\",HasBulletInBarrel:1b}",
