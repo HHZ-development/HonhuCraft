@@ -1,0 +1,760 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2D61BF327A8C637A"
+	group: ""
+	id: "2D61BF327A8C637A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "minecraft:melon_slice"
+			id: "08E6FEB595B18E43"
+			optional: true
+			rewards: [{
+				id: "20349DB99FC1E166"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "美味又止渴~"
+			title: "西瓜片~~"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "pasterdream:light_butterfly_curio"
+			id: "4911AD2D1A32561C"
+			optional: true
+			rewards: [{
+				id: "57486C8CD9AA2E72"
+				item: "pasterdream:light_butterfly_curio"
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "夜视"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "pasterdream:crop_1a"
+			id: "50E2FF838AF7248B"
+			optional: true
+			rewards: [{
+				id: "54E9030BADA0C052"
+				item: "pasterdream:crop_1a"
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "苍白雪莲"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "fire_fox:fire_fox_ammo"
+				}
+			}
+			id: "0225061FD9ECC188"
+			optional: true
+			rewards: [{
+				id: "0B329A95F6558E22"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "fire_fox:fire_fox_ammo"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&4能量"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+			id: "1904E42928C9C800"
+			optional: true
+			rewards: [{
+				id: "4162E57A26D46DC9"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:12g"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&912号口径霰弹"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+			id: "7C134A02FC875609"
+			optional: true
+			rewards: [{
+				id: "359E5AF874549A0C"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45acp"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a.45 手枪弹"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "emxarms:339x57"
+				}
+			}
+			id: "7E901E7B8739FB7F"
+			optional: true
+			rewards: [{
+				id: "4B9318388877D995"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "emxarms:339x57"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a3.39x57mm 磁钢弹"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "emxarms:402x31"
+				}
+			}
+			id: "70B1700691A789EC"
+			optional: true
+			rewards: [{
+				id: "251532284BCF73B2"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "emxarms:402x31"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a4.02x31mm 磁钢弹"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "emxarms:410x57ap"
+				}
+			}
+			id: "19C6C494437C22F7"
+			optional: true
+			rewards: [{
+				id: "6313A66FC6CA8502"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "emxarms:410x57ap"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a4.10x57mm 磁钢重穿弹"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+			id: "497E9280273C2C43"
+			optional: true
+			rewards: [{
+				id: "477584E207CB5F05"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a9mm 手枪弹"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "nitrogen:9x21"
+				}
+			}
+			id: "61FCA1F2FEBC0C4B"
+			optional: true
+			rewards: [{
+				id: "63B6E65BAEF0A4CF"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "nitrogen:9x21"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a9x21mm 手枪弹"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "emxarms:1045x103"
+				}
+			}
+			id: "4593F1CD03D9A17C"
+			optional: true
+			rewards: [{
+				id: "49621A1B47D88DFD"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "emxarms:1045x103"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&a10.45x103mm 磁钢箭形弹"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "emxarms:x16sg"
+				}
+			}
+			id: "0A5A4DE9534D641A"
+			optional: true
+			rewards: [{
+				id: "0A7DA9171804FD6E"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "emxarms:x16sg"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&aX16 磁钢集束弹"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:308"
+				}
+			}
+			id: "502B1D4683F1CA7B"
+			optional: true
+			rewards: [{
+				id: "15249E03F6A9AD24"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:308"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&3.308 温彻斯特 步枪弹"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50ae"
+				}
+			}
+			id: "107A2EC15C361355"
+			optional: true
+			rewards: [{
+				id: "5623FB481B61497B"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50ae"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&c.50 AE 手枪弹"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50bmg"
+				}
+			}
+			id: "580ADCD8368435A2"
+			optional: true
+			rewards: [{
+				id: "34DEC0D0434FEE1D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50bmg"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&c.50 BMG 狙击弹"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:338"
+				}
+			}
+			id: "632E87FDA4499127"
+			optional: true
+			rewards: [{
+				id: "6C52BB269A1DECCA"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:338"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&c.338 拉普马格南 狙击弹"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:357mag"
+				}
+			}
+			id: "7F3252AD335C7E1E"
+			optional: true
+			rewards: [{
+				id: "5DF3AC9A8B54E657"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:357mag"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&c.357 马格南 手枪弹"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:rpg_rocket"
+				}
+			}
+			id: "17A968066E3A64F9"
+			optional: true
+			rewards: [{
+				id: "4935E2B6EA37B464"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:rpg_rocket"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&dRPG-7 火箭弹"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+			id: "209DED83BBC49E01"
+			optional: true
+			rewards: [{
+				id: "7B433C9F6AA44FD2"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:556x45"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&e5.56x45mm 步枪弹"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+			id: "5968EF0ED4CDDA36"
+			optional: true
+			rewards: [{
+				id: "7A40DCBE14736E87"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x39"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&e7.62x39mm 步枪弹"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "nitrogen:9x39"
+				}
+			}
+			id: "02FAC3AD71BE3A6A"
+			optional: true
+			rewards: [{
+				id: "581F4CC6B7E87BB6"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "nitrogen:9x39"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&e9x39mm 亚音速步枪弹"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "nitrogen:127x55"
+				}
+			}
+			id: "3F89CE02F867A749"
+			optional: true
+			rewards: [{
+				id: "091F2F162CC886DA"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "nitrogen:127x55"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "&e12.7x55mm 步枪弹"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "qkl:rb10"
+				}
+			}
+			id: "0CD33152D7A596FF"
+			optional: true
+			rewards: [{
+				id: "5CB64CD54352B816"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "qkl:rb10"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "7.5x52 RB10"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "helldiver2:rifle_normal"
+				}
+			}
+			id: "339764E7B43AEBF0"
+			optional: true
+			rewards: [{
+				id: "2E067ADC38BDA080"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "helldiver2:rifle_normal"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "地狱潜兵2丨步枪子弹"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "helldiver2:rifle_ap"
+				}
+			}
+			id: "6930E59C59C2010C"
+			optional: true
+			rewards: [{
+				id: "18444564D75CF09D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "helldiver2:rifle_ap"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "地狱潜兵2丨穿甲步枪弹"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "helldiver2:explode_ap"
+				}
+			}
+			id: "2DF592E17E18BD86"
+			optional: true
+			rewards: [{
+				id: "0C10D1F03A28F9C7"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "helldiver2:explode_ap"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "地狱潜兵2丨穿甲高爆弹"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "helldiver2:pistol_normal"
+				}
+			}
+			id: "5986AE65CAF8DF6E"
+			optional: true
+			rewards: [{
+				id: "6BBC46857E7A340E"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "helldiver2:pistol_normal"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "地狱潜兵2丨手枪子弹"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "helldiver2:shotgun_normal"
+				}
+			}
+			id: "6F4C9B613BDD2010"
+			optional: true
+			rewards: [{
+				id: "1E09E743AB414686"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "helldiver2:shotgun_normal"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			title: "地狱潜兵2丨霰弹"
+			x: -6.5d
+			y: -1.0d
+		}
+	]
+	title: "商店"
+}
