@@ -1,0 +1,27 @@
+StartupEvents.registry('item', event => {
+    //铜币
+        event.create('copper_coin')
+        .displayName('铜币')
+        .maxStackSize(64);
+    //铁币
+        event.create('iron_coin')
+        .displayName('铁币')
+        .maxStackSize(64);
+    //金币
+        event.create('gold_coin')
+        .displayName('金币')
+        .maxStackSize(64);
+    //钻石币
+        event.create('diamond_coin')
+        .displayName('钻石币')
+        .maxStackSize(64);
+    //下届合金币
+    event.create('netherite_coin')
+        .displayName('下界合金币')
+        .maxStackSize(64);
+    //绿宝石币
+    event.create('emerald_coin')
+        .displayName('绿宝石币')
+        .maxStackSize(64);
+    //后续按照这种格式添加钥匙之类的物品!!!
+});
