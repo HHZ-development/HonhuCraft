@@ -47,6 +47,5 @@ EntityEvents.hurt(event => {
     let message = `《你对 ${entityName} 造成了 ${record.total} 点伤害喵!》`;
     try {
         player.runCommandSilent(`title @s actionbar {"text":"${message}","color":"green"}`);
-        console.log(`玩家 ${player.getName()} 对 ${entityName} 造成了 ${record.total} 点伤害`);
     } catch (e) {}
 });
