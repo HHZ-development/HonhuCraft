@@ -3,25 +3,25 @@
 ["Damage System"]
 	#Max health of the Head
 	#Range: 2 ~ 12
-	maxHealthHead = 4
+	maxHealthHead = 8
 	#Max health of the Left Arm
 	#Range: 2 ~ 12
-	maxHealthLeft_Arm = 4
+	maxHealthLeft_Arm = 6
 	#Max health of the Left Leg
 	#Range: 2 ~ 12
-	maxHealthLeft_Leg = 4
+	maxHealthLeft_Leg = 6
 	#Max health of the Left Foot
 	#Range: 2 ~ 12
 	maxHealthLeft_Foot = 4
 	#Max health of the Body
 	#Range: 2 ~ 12
-	maxHealthBody = 6
+	maxHealthBody = 8
 	#Max health of the Right Arm
 	#Range: 2 ~ 12
-	maxHealthRight_Arm = 4
+	maxHealthRight_Arm = 6
 	#Max health of the Right Leg
 	#Range: 2 ~ 12
-	maxHealthRight_Leg = 4
+	maxHealthRight_Leg = 6
 	#Max health of the Right Foot
 	#Range: 2 ~ 12
 	maxHealthRight_Foot = 4
