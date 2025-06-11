@@ -8,12 +8,6 @@ EntityEvents.hurt(event => {
     let source = event.source;
     let player = source.getPlayer();
     let damage = Math.floor(event.amount || event.damage || event.damageAmount);
-
-    if (isNaN(damage)) {
-        console.error("伤害值无效");
-        return;
-    }
-
     let entityName = entity.getDisplayName().getString() || entity.type;
     let entityId = entity.id;
 
