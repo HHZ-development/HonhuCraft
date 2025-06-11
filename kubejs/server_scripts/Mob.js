@@ -62,4 +62,4 @@ ServerEvents.tick(event => {
         }
     });
 });
-//TM的不会写了，nmd为什么不能直接处理数组！！！
+//nmd为什么不能直接处理数组！！！

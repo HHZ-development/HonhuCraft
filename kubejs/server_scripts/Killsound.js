@@ -7,8 +7,6 @@ EntityEvents.death(event => {
         try {
             let command = 'playsound minecraft:entity.experience_orb.pickup voice @s[distance=..16] ~ ~ ~ 1 1';
             player.runCommandSilent(command);
-        } catch (e) {
-            // 这里可以选择记录错误信息，或者采取其他处理措施
-        }
+        } catch (e) {}
     }
 });
