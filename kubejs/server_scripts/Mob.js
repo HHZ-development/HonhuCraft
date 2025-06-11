@@ -1,3 +1,19 @@
+EntityEvents.spawned(event => {
+    const Bosslist = {
+        'minecraft:ender_dragon': 2400,
+        //单独设置生物血量
+    };
+
+    const entity = event.entity;
+    
+    const entityId = entity.type;
+    if (Bosslist[entityId]) {
+        const targetHealth = Bosslist[entityId];
+        entity.setMaxHealth(targetHealth);
+        entity.setHealth(targetHealth);
+    }
+});
+
 ServerEvents.tick(event => {
     //获取当前世界
     let world = event.server.overworld();
@@ -10,7 +26,7 @@ ServerEvents.tick(event => {
    //黑名单
     const blacklist = [
         'minecraft:ender_dragon',
-        // 添加更多不需要翻倍血量的生物...
+        //不需要翻倍的生物
     ];
     
     entities.forEach(entity => {
@@ -62,4 +78,4 @@ ServerEvents.tick(event => {
         }
     });
 });
-//nmd为什么不能直接处理数组！！！
+//不管了，能跑就可以了
