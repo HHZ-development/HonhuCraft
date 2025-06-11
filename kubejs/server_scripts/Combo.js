@@ -1,7 +1,7 @@
 let damageMap = new Map();
 let loggedNonPlayerSources = new Set();
-let nonPlayerLogThrottle = 30000;
-const DAMAGE_RESET_TIME = 5000; 
+let nonPlayerLogThrottle = 30000; // 30秒
+const DAMAGE_RESET_TIME = 5000; // 5秒
 
 EntityEvents.hurt(event => {
     let entity = event.entity;
@@ -14,29 +14,33 @@ EntityEvents.hurt(event => {
     if (!player) {
         if (!loggedNonPlayerSources.has(source.type)) {
             loggedNonPlayerSources.add(source.type);
-            setTimeout(() => {
+            Utils.server.scheduleInTicks(nonPlayerLogThrottle / 50, () => {
                 loggedNonPlayerSources.delete(source.type);
-            }, nonPlayerLogThrottle);
+            });
         }
         return;
     }
 
+    let now = Date.now();
+
     if (!damageMap.has(entityId)) {
         damageMap.set(entityId, {
             total: 0,
-            timer: setTimeout(() => {
-                damageMap.delete(entityId);
-            }, DAMAGE_RESET_TIME)
+            lastUpdate: now
         });
     }
 
     let record = damageMap.get(entityId);
-    clearTimeout(record.timer); 
     record.total += damage;
-    record.timer = setTimeout(() => {
-        damageMap.delete(entityId);
-    }, DAMAGE_RESET_TIME);
+    record.lastUpdate = now;
     damageMap.set(entityId, record);
+
+    Utils.server.scheduleInTicks(DAMAGE_RESET_TIME / 50, () => {
+        let current = damageMap.get(entityId);
+        if (current && current.lastUpdate === now) {
+            damageMap.delete(entityId);
+        }
+    });
 
     let message = `《你对 ${entityName} 造成了 ${record.total} 点伤害喵!》`;
     try {
