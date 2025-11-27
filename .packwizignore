@@ -1,0 +1,9 @@
+.github/
+.git/
+saves/
+screenshots/
+logs/
+crash-reports/
+options.txt
+usercache.json
+usernamecache.json
