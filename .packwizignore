@@ -4,6 +4,7 @@ saves/
 screenshots/
 logs/
 crash-reports/
+README.md
 options.txt
 usercache.json
 usernamecache.json
