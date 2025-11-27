@@ -1,4 +1,4 @@
-name: 🐛 整合包 Bug 反馈 (Bug Report)
+name: 整合包 Bug 反馈 (Bug Report)
 description: 报告游戏崩溃、任务无法完成、配方错误或贴图丢失等问题
 title: "[Bug]: "
 labels: ["bug", "triage"]
