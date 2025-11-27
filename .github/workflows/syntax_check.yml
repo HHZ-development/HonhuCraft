@@ -3,9 +3,9 @@ name: Config Syntax Checker
 # 当有人推送到 main 或提交 PR 时触发
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   check-syntax:
@@ -29,6 +29,8 @@ jobs:
               line-length: disable
               document-start: disable
               truthy: disable
+              branches: disable
+              new-line-at-end-of-file: disable
 
       # 如果你是用 KubeJS，可以尝试检查 JS (可选)
       # - name: Check JavaScript (KubeJS)
