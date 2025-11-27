@@ -1,0 +1,52 @@
+name: Build Client Modpack (Auto)
+
+# 触发条件：
+# 1. 手动点击 (workflow_dispatch)
+# 2. 或者每次推送到 main 分支时自动触发 (push)
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 拉取代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 安装 Go 环境 (因为 Packwiz 是用 Go 语言写的)
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      # 3. 安装 Packwiz 工具
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      # 4. 刷新索引 (确保所有哈希值是最新的)
+      - name: Refresh Packwiz Index
+        run: packwiz refresh
+
+      # 5. 导出为 Modrinth 格式 (.mrpack)
+      # 推荐：这是目前 PCL2、HMCL、Prism Launcher 兼容性最好的格式
+      - name: Export Modrinth Pack (.mrpack)
+        run: packwiz modrinth export -o HonhuCraft-Client.mrpack
+
+      # 6. 导出为 CurseForge 格式 (.zip)
+      # 可选：如果你有朋友还在用 CurseForge App
+      - name: Export CurseForge Pack (.zip)
+        run: packwiz curseforge export -o HonhuCraft-Client-CF.zip
+
+      # 7. 上传构建结果到 GitHub Actions 页面供下载
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: HonhuCraft-Client-Build-${{ github.run_number }}
+          path: |
+            HonhuCraft-Client.mrpack
+            HonhuCraft-Client-CF.zip
+          retention-days: 5 # 文件保留5天，避免占用空间
