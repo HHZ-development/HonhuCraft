@@ -29,10 +29,10 @@ body:
       description: 你使用的是哪个启动器？不同的启动器可能会导致不同的问题。
       options:
         - CurseForge App
-        - Prism Launcher (推荐)
+        - Prism Launcher
         - MultiMC
         - HMCL
-        - PCL2
+        - PCL2 (推荐)
         - ATLauncher
         - 官方启动器
         - 其他 (请在描述中说明)
