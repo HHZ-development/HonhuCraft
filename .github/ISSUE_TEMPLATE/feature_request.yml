@@ -1,0 +1,22 @@
+name: 💡 建议或新内容申请 (Suggestion)
+description: 建议添加新模组、修改任务线或调整平衡性
+title: "[建议]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: pitch
+    attributes:
+      label: 你的建议是什么？
+      description: 清晰地描述你希望改变什么。
+      placeholder: 我建议把 [模组A] 加进来，或者修改 [物品B] 的合成配方...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么要这样做？
+      description: 这个改动对整合包的游玩体验有什么帮助？
+      placeholder: 因为目前的配方太难了，会导致中期卡关...
+    validations:
+      required: true
