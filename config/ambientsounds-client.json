@@ -1,7 +1,7 @@
 {
   "general": {
     "engines": 0,
-    "volume": 0.8,
+    "volume": 1,
     "useSoundMasterSource": true,
     "scanStepAmount": 150,
     "playSoundWithOffset": true
@@ -80,7 +80,7 @@
     },
     "desert": {
       "overall": 1,
-      "cicadas-desert": 1,
+      "cicadas-desert": 0.01,
       "wind.light-wind": 1
     },
     "forest_cold": {
@@ -98,9 +98,9 @@
     },
     "grass": {
       "overall": 1,
-      "cricket": 1,
-      "cricket-night": 1,
-      "cicadas-night": 1
+      "cricket": 0.5015479922294617,
+      "cricket-night": 0.6006191968917847,
+      "cicadas-night": 0.01
     },
     "highland": {
       "overall": 1,
@@ -120,7 +120,7 @@
     },
     "mushroom_fields": {
       "overall": 1,
-      "cicadas-mushroom-fields": 1,
+      "cicadas-mushroom-fields": 0.01,
       "special-mushroom-fields": 1
     },
     "ocean": {
@@ -134,9 +134,9 @@
     },
     "plains": {
       "overall": 1,
-      "cricket": 1,
-      "cricket-night": 1,
-      "cicadas-night": 1
+      "cricket": 0.7956656217575073,
+      "cricket-night": 0.603715181350708,
+      "cicadas-night": 0.01
     },
     "rain": {
       "overall": 1,
@@ -144,10 +144,10 @@
     },
     "savanna": {
       "overall": 1,
-      "cricket": 1,
-      "cicadas": 1,
-      "cicadas-desert": 1,
-      "cricket-warm-night": 1,
+      "cricket": 0.8,
+      "cicadas": 0.01,
+      "cicadas-desert": 0.01,
+      "cricket-warm-night": 0.8,
       "wolf": 1,
       "long-wolf": 1,
       "bird-warm": 1
@@ -174,8 +174,8 @@
     },
     "swamp": {
       "overall": 1,
-      "cricket-swamp": 1,
-      "cricket-warm-night": 1,
+      "cricket-swamp": 0.8,
+      "cricket-warm-night": 0.8,
       "frog": 1,
       "mouring_dove": 1
     },
@@ -205,11 +205,11 @@
         "bird_day": 1,
         "bird_night": 1
       },
-      "cicadas": 1,
+      "cicadas": 0.01,
       "cricket": {
-        "cricket": 1,
-        "cricket_day": 0.5,
-        "cricket_night": 1
+        "cricket": 0.8,
+        "cricket_day": 0.6,
+        "cricket_night": 0.8
       }
     },
     "cave": 1,
