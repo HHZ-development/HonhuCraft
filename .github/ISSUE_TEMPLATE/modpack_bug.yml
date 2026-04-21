@@ -1,0 +1,116 @@
+name: 🐛 整合包 Bug 反馈 (Bug Report)
+description: 报告游戏崩溃、任务无法完成、配方错误或贴图丢失等问题
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 提交反馈前的检查清单
+        感谢你反馈问题！在提交之前，请确保：
+        1. 你使用的是**最新版本**的整合包。
+        2. 你**没有私自添加/删除模组**（如果修改了，请在下方说明）。
+        3. 你已经搜索过现有的 Issue，确认没有重复提问。
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: 整合包版本 (Modpack Version)
+      description: 你当前正在游玩的整合包版本号。
+      placeholder: 例如：v1.2.5 或 Beta 3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: 启动器 (Launcher)
+      description: 你使用的是哪个启动器？不同的启动器可能会导致不同的问题。
+      options:
+        - CurseForge App
+        - Prism Launcher
+        - MultiMC
+        - HMCL
+        - PCL2 (推荐)
+        - ATLauncher
+        - 官方启动器
+        - 其他 (请在描述中说明)
+    validations:
+      required: true
+
+  - type: input
+    id: java-version
+    attributes:
+      label: Java 版本
+      description: 可以在游戏内 F3 界面右上角看到，或者在启动器设置中查看。
+      placeholder: 例如：Java 17.0.8, Java 8 Update 311
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述 (Description)
+      description: 请详细描述发生了什么问题，你是如何发现这个问题的。
+      placeholder: 当我尝试打开[某某机器]的界面时，游戏卡顿了一下然后崩溃了...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤 (Steps to Reproduce)
+      description: 我们需要按照什么步骤才能重现这个问题？
+      placeholder: |
+        1. 拿着 [物品A]
+        2. 对着 [方块B] 右键
+        3. 观察到游戏崩溃
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 崩溃报告或日志 (Crash Report / Logs)
+      description: |
+        这是**最重要**的部分！
+        - 如果游戏崩溃，请上传 `crash-reports` 文件夹下的最新文件。
+        - 如果没崩溃但有问题，请上传 `logs` 文件夹下的 `latest.log`。
+        - **请尽量使用 [Ubuntu Pastebin](https://paste.ubuntu.com/) 或 [Pastebin](https://pastebin.com/)**，生成链接后填入下方。
+        - 不要直接粘贴几千行代码在这里！
+      placeholder: 将日志链接粘贴在这里 (https://...)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: modifications
+    attributes:
+      label: 额外修改 (Modifications)
+      description: 你是否修改了整合包的内容？
+      options:
+        - label: 我添加了额外的模组 (如 Optifine, 录像模组等)
+        - label: 我删除了部分模组
+        - label: 我修改了配置文件 (Configs)
+        - label: 我完全没有修改，是原版整合包环境
+    validations:
+      required: true
+
+  - type: textarea
+    id: mod-list
+    attributes:
+      label: 额外模组列表
+      description: 如果你在上面选择了“添加了额外模组”，请列出它们的名字。
+      render: bash
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认
+      options:
+        - label: 我已阅读常见问题解答 (FAQ) 或 Wiki。
+          required: true
+        - label: 我确认这是整合包的问题，而不是我电脑硬件故障（如内存不足）。
+          required: false
